@@ -1,0 +1,241 @@
+/* Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff9f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #d2691e, #f4a261);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header b {
+    font-size: 28px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    height: 500px;
+    background: linear-gradient(to bottom right, #d2691e, #f4a261, #ffe8d6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.hero a {
+    background-color: #fff;
+    color: #d2691e;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.hero a:hover {
+    background-color: #ffe2c4;
+}
+
+/* Tentang Kami */
+#tentang {
+    padding: 60px 20px;
+    background: #fff9f5;
+    text-align: center;
+}
+
+#tentang h2 {
+    font-size: 32px;
+    color: #6b3e26;
+    margin-bottom: 20px;
+}
+
+.tentang-content {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.tentang-box {
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-radius: 10px;
+    padding: 25px;
+    width: 30%;
+    min-width: 280px;
+    text-align: left;
+}
+
+/* Menu Sections */
+.section-title {
+    text-align: center;
+    padding: 60px 20px 30px;
+    background: #ffe5d0;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #6b3e26;
+}
+
+.menu-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px 20px;
+    background: #fff4ea;
+}
+
+.menu-item {
+    background: white;
+    border-radius: 10px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.menu-item img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.menu-item h3 {
+    margin: 15px 0 5px;
+    color: #333;
+}
+
+.menu-item p {
+    color: #f59e0b;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menu-item a {
+    display: inline-block;
+    background: #d2691e;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.menu-item a:hover {
+    background-color: #a0522d;
+}
+
+/* Kontak */
+#kontak {
+    padding: 60px 20px;
+    background: #fff9f5;
+    max-width: 800px;
+    margin: auto;
+}
+
+#kontak h2 {
+    text-align: center;
+    color: #6b3e26;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+form label {
+    font-weight: 500;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+form button {
+    background: #d2691e;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #a0522d;
+}
+
+/* Footer */
+footer {
+    background-color: #cc5616;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 14px;
+}
+
+footer h3 {
+    color: #f59e0b;
+    margin-bottom: 10px;
+}
