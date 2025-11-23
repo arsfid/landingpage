@@ -3,128 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>landing page</title>
+    <title>OldTownBrew – Coffee & Classics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Header -->
+    <!-- NAVBAR -->
     <header>
         <b>OldTownBrew</b>
+
         <nav>
             <a href="#home">Beranda</a>
-            <a href="#kontak">Delivery</a>
             <a href="#menu">Menu</a>
+            <a href="#kontak">Delivery</a>
             <a href="#tentang">Tentang</a>
             <a href="#kontak">Kontak</a>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
+  
+    <!-- HERO -->
+    <section class="hero" id="home">
         <h1>Classic Vibes, Crafted Coffee</h1>
-        <p>Nuansa klasik dan rasa kopi yang dibuat dengan penuh keterampilan</p>
+        <p>Nuansa klasik dan rasa kopi yang dibuat dengan penuh keterampilan untuk menghadirkan pengalaman tak terlupakan.</p>
         <a href="#menu">Lihat Menu</a>
     </section>
 
-    <!-- Tentang Kami -->
-    <section id="tentang">
-        <h2>Tentang Kami</h2>
-        <div class="tentang-content">
-            <div class="tentang-box">
-                <p>Old Town Brew hadir sebagai tempat pelarian yang penuh kehangatan dan nostalgia. Kami percaya bahwa secangkir kopi bukan hanya soal rasa, tetapi juga soal cerita-cerita tentang tradisi, momen yang tak terlupakan.</p>
-            </div>
-            <div class="tentang-box">
-                <p>Terinspirasi dari pesona kota tua yang tenang, kami mengusung desain vintage dengan kenyamanan modern untuk pengalaman yang istimewa.</p>
-            </div>
-            <div class="tentang-box">
-                <p>Kopi pilihan yang diracik sepenuh hati, pelayanan hangat, dan menu klasik akan membuat Anda merasa seperti di rumah.</p>
+
+    <!-- TENTANG -->
+    <section id="tentang" class="hidden">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+
+            <div class="tentang-content">
+                <div class="tentang-box">
+                    <p>Old Town Brew hadir sebagai tempat pelarian yang penuh kehangatan dan nostalgia. Kami percaya bahwa secangkir kopi bukan hanya soal rasa, tetapi juga soal cerita-cerita tentang tradisi dan momen berkesan.</p>
+                </div>
+
+                <div class="tentang-box">
+                    <p>Terinspirasi dari pesona kota tua yang tenang, kami menghadirkan desain vintage yang dipadukan dengan kenyamanan modern untuk pengalaman yang hangat dan autentik.</p>
+                </div>
+
+                <div class="tentang-box">
+                    <p>Kopi pilihan yang diracik sepenuh hati, pelayanan hangat, dan menu klasik akan membuat Anda merasa seperti di rumah.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Coffee -->
+   
+    <!-- MENU: COFFEE -->
     <section id="menu">
         <div class="section-title">
             <h2>Coffee</h2>
             <p>Kami menyediakan berbagai jenis kopi klasik dan spesial.</p>
         </div>
+
         <div class="menu-wrapper">
-            <div class="menu-item">
-                <img src="americano.jpg" alt="Americano">
+
+            <div class="menu-item hidden">
+                <img src="picture/americano.jpg" alt="Americano">
                 <h3>Americano</h3>
                 <p>Rp 15.000</p>
                 <a href="#kontak">Pesan</a>
             </div>
-            <div class="menu-item">
-                <img src="espresso.jpg" alt="Espresso">
+
+            <div class="menu-item hidden">
+                <img src="picture/espresso.jpg" alt="Espresso">
                 <h3>Espresso</h3>
                 <p>Rp 13.000</p>
                 <a href="#kontak">Pesan</a>
             </div>
-            <div class="menu-item">
-                <img src="cappuccino.jpg" alt="Cappuccino">
+
+            <div class="menu-item hidden">
+                <img src="picture/cappuccino.jpg" alt="Cappuccino">
                 <h3>Cappuccino</h3>
                 <p>Rp 20.000</p>
                 <a href="#kontak">Pesan</a>
             </div>
-            <div class="menu-item">
-                <img src="latte.jpg" alt="Latte">
+
+            <div class="menu-item hidden">
+                <img src="picture/latte.jpg" alt="Latte">
                 <h3>Latte</h3>
                 <p>Rp 23.000</p>
                 <a href="#kontak">Pesan</a>
             </div>
-            <div class="menu-item">
-                <img src="macchiato.jpg" alt="Macchiato">
+
+           <div class="menu-item hidden">
+                <img src="picture/macchiato.jpg" alt="Macchiato">
                 <h3>Macchiato</h3>
                 <p>Rp 27.000</p>
                 <a href="#kontak">Pesan</a>
             </div>
-            <div class="menu-item">
-                <img src="black coffee.jpg" alt="Black Coffee">
+
+            <<div class="menu-item hidden">
+                <img src="picture/black coffee.jpg" alt="Black Coffee">
                 <h3>Black Coffee</h3>
                 <p>Rp 13.000</p>
                 <a href="#kontak">Pesan</a>
             </div>
+
         </div>
     </section>
 
-    <!-- Non Coffee -->
+   
+    <!-- MENU: NON-COFFEE -->
     <section>
         <div class="section-title">
             <h2>Non-Coffee</h2>
             <p>Minuman non-kopi yang tidak kalah nikmat.</p>
         </div>
+
         <div class="menu-wrapper">
-            <div class="menu-item">
-                <img src="chocolate.jpg" alt="Chocolate">
+
+            <div class="menu-item hidden">
+                <img src="picture/chocolate.jpg" alt="Chocolate">
                 <h3>Chocolate</h3>
                 <p>Rp 13.000</p>
                 <a href="#kontak">Pesan</a>
             </div>
-            <div class="menu-item">
-                <img src="greenn.jpg" alt="Green Tea Latte">
+
+            <div class="menu-item hidden">
+                <img src="picture/greenn.jpg" alt="Green Tea Latte">
                 <h3>Green Tea Latte</h3>
                 <p>Rp 13.000</p>
                 <a href="#kontak">Pesan</a>
             </div>
-            <div class="menu-item">
-                <img src="milkk.jpg" alt="Milk Tea">
+
+           <div class="menu-item hidden">
+                <img src="picture/milkk.jpg" alt="Milk Tea">
                 <h3>Milk Tea</h3>
                 <p>Rp 20.000</p>
                 <a href="#kontak">Pesan</a>
             </div>
+
         </div>
     </section>
 
-    <!-- Kontak -->
+    
+    <!-- KONTAK -->
     <section id="kontak">
         <h2>Hubungi Kami</h2>
-        <p><strong>Alamat:</strong> Jl. Diponegoro No. 123, Jakarta</p>
-        <p><strong>Telepon:</strong> (021) 1234 5678</p>
-        <p><strong>Email:</strong> info@oldtownbrew.com</p>
-        
+
+        <div class="contact-info">
+            <p><strong>Alamat:</strong> Jl. Diponegoro No. 123, Jakarta</p>
+            <p><strong>Telepon:</strong> (021) 1234 5678</p>
+            <p><strong>Email:</strong> info@oldtownbrew.com</p>
+        </div>
+
         <form>
             <label>Nama Anda</label>
             <input type="text" placeholder="Masukkan nama Anda">
@@ -139,7 +166,8 @@
         </form>
     </section>
 
-    <!-- Footer -->
+  
+    <!-- FOOTER -->
     <footer>
         <h3>Kontak Kami</h3>
         <p>
@@ -149,6 +177,20 @@
         </p>
         <p>&copy; 2025 OldTownBrew</p>
     </footer>
+
+    <script>
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            }
+        });
+    });
+
+    const hiddenElements = document.querySelectorAll(".hidden");
+    hiddenElements.forEach(el => observer.observe(el));
+</script>
+
 
 </body>
 </html>
